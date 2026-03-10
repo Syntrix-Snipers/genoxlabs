@@ -10,13 +10,19 @@ export default function BackgroundLayout() {
         setMounted(true);
         const handleScroll = () => {
             if (planetRef.current) {
-                const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+                const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const scrollPercent = window.scrollY / scrollHeight;
+
+                // Horizontal movement
                 const animationProgress = (scrollPercent * 2) % 2;
                 const currentTranslateX = animationProgress <= 1
                     ? -80 + (animationProgress * 110)
                     : 30 - ((animationProgress - 1) * 110);
 
                 planetRef.current.style.transform = `translate(${currentTranslateX - 50}%, -50%)`;
+
+                // Scroll depth for "digging" effect
+                planetRef.current.style.setProperty('--scroll-depth', scrollPercent.toString());
             }
         };
 
@@ -54,7 +60,21 @@ export default function BackgroundLayout() {
                 ))}
             </div>
 
-            <div className="fireball-planet" ref={planetRef} id="main-planet" aria-hidden="true" />
+            <div className="fireball-planet" ref={planetRef} id="main-planet" aria-hidden="true">
+                <div className="smoke-cloud" />
+                <div className="fire-jets">
+                    {[...Array(8)].map((_, i) => (
+                        <div key={i} className={`fire-jet jet-${i}`} />
+                    ))}
+                </div>
+                <div className="energy-crust" />
+                <div className="fire-layer" />
+                <div className="planet-core planet-explode">
+                    {[...Array(15)].map((_, i) => (
+                        <div key={i} className={`shard-fragment shard-${i}`} />
+                    ))}
+                </div>
+            </div>
         </>
     );
 }
