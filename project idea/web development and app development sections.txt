@@ -1,0 +1,72 @@
+<!-- Web Development -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-40">
+<div class="order-2 lg:order-1">
+<span class="text-primary font-bold text-sm tracking-widest uppercase mb-4 block">01 / Engineering</span>
+<h3 class="text-6xl font-bold mb-8">Web Development</h3>
+<div class="space-y-6 mb-10">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">architecture</span>
+<div>
+<h4 class="text-xl font-bold">Architecture</h4>
+<p class="text-slate-400">Headless CMS and Microservices built for infinite scale.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">speed</span>
+<div>
+<h4 class="text-xl font-bold">Performance</h4>
+<p class="text-slate-400">Sub-second load times and 100/100 Lighthouse scores.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">search</span>
+<div>
+<h4 class="text-xl font-bold">SEO Dominance</h4>
+<p class="text-slate-400">Technical optimization that puts you at the top of results.</p>
+</div>
+</div>
+</div>
+<button class="px-8 py-3 neo-brutal-border text-primary font-bold hover:bg-primary hover:text-white transition-all rounded">Request Demo</button>
+</div>
+<div class="order-1 lg:order-2 rounded-xl overflow-hidden bg-slate-900 aspect-video relative group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Futuristic developer workspace with triple monitor setup and purple ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6hJ0m2bR0r24lDeatTS8fY4vr2-PYCldjQgNCDf4JuZFXb9ZEzt3t8DskUsZmsiXiliVSaMayxP-xt5AHQ7XzSksYeTtOV_Eii_ii5uM1t-msHXPgHahdePNSzzQxWi49ExaA0dsrAx7CoPSvHtH-hR6YM9OxmvjV6Tam88OyiwS0kIKKcH-5pTTCVW6lA8lJjfutWzGDJ_QHahKfeyW22eafmg4hIVGzVD3FRdA7rzyte0AaXYCgEU0fMJXNk6banS0Zc_Ap9pqJ"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+</div>
+<!-- App Development -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-40">
+<div class="rounded-xl overflow-hidden bg-slate-900 aspect-square relative group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="High resolution iPhone 15 Pro mockup showing a dark mode luxury app interface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA26VBSUS9jGOHZIs1g04qC-jxXUH5bYju0iTxQpYO7-X1AwCCWhkhrCBIblmzih-XkE4LiUnZFYkq6sqLfel9ZWxULpM2pBjYNryMa-4VkuAenAXw9BLWGnhOW6pWvqfIThoI60vq7zAQKrMNyPXgiG2snlawsuRzi2LTNQYoMwCIx-IyxnbR6VZKkznmTvC-BnvTkoQoYu1ztRZ88vOPLwSTtPHd7HA5RkE6sI4gRrku2917Mg5zqTmnLmR9qGeKz9-7cl32GX5SU"/>
+<div class="absolute inset-0 bg-accent-blue/20 mix-blend-multiply"></div>
+</div>
+<div>
+<span class="text-accent-blue font-bold text-sm tracking-widest uppercase mb-4 block">02 / Mobility</span>
+<h3 class="text-6xl font-bold mb-8">App Development</h3>
+<div class="space-y-6 mb-10">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-accent-blue mt-1">devices</span>
+<div>
+<h4 class="text-xl font-bold">Cross-Platform</h4>
+<p class="text-slate-400">Native performance on iOS and Android with Flutter/React Native.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-accent-blue mt-1">psychology</span>
+<div>
+<h4 class="text-xl font-bold">UX Research</h4>
+<p class="text-slate-400">User-centric design backed by cognitive psychology data.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-accent-blue mt-1">cloud_done</span>
+<div>
+<h4 class="text-xl font-bold">Cloud Integration</h4>
+<p class="text-slate-400">Seamless real-time data syncing across all devices.</p>
+</div>
+</div>
+</div>
+<button class="px-8 py-3 border-2 border-accent-blue text-accent-blue font-bold hover:bg-accent-blue hover:text-white transition-all rounded">Start Your Project</button>
+</div>
+</div>
+</div>
+</section>

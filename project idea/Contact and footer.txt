@@ -1,0 +1,109 @@
+<section class="py-32 relative" id="contact">
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-10">
+<div>
+<span class="text-primary font-bold tracking-widest uppercase text-xs">Transmission</span>
+<h2 class="text-6xl font-display font-extrabold mt-6 leading-tight text-white">Let's <span class="text-primary">Synthesize</span> The Next Big Thing</h2>
+<p class="text-slate-400 mt-6 max-w-md">Our intake sensors are ready. Tell us about your objective and let's calculate the trajectory.</p>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4 p-4 rounded-xl glass-panel">
+<div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">alternate_email</span>
+</div>
+<div>
+<div class="text-xs text-slate-500 uppercase font-bold tracking-widest">Direct Comms</div>
+<div class="font-bold text-white">connect@genoxlab.systems</div>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl glass-panel group h-48">
+<img alt="Tech Map" class="w-full h-full object-cover opacity-30 group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4O4twP8GoQTtvdhdKcQzLdI27fus-7yH25b6146xn2QnbCY2taBrTh78XFHaGw3wU5ZJBbDVSnRC35JRRdDyS9YvW7rpMA7Am86fzPuBzIIbNoMJzXBIYBTunboTDgVDjh6EOb5FNhH3av9_B3QVTIukiikgltPcbJMT_nc08Ipzm1IrMBUw_Lv3TaKSG8p0DCaIZS5cdkrAyXfJE2KFW3klZy3QhkD41pqPXM5Xs_2mQDbd6_PirOHesHmGZrzqIuCt4tbNQld4I"/>
+<div class="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-3 h-3 bg-primary rounded-full neon-glow-pink animate-ping"></div>
+</div>
+</div>
+</div>
+<div class="glass-panel rounded-[2.5rem] p-10 space-y-8 border-white/20">
+<div class="grid grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-slate-400">Entity Name</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-primary focus:outline-none text-white" placeholder="Enter name" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-slate-400">Secure Email</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-primary focus:outline-none text-white" placeholder="name@domain.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-slate-400">Project Protocol</label>
+<select class="w-full bg-obsidian border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-primary focus:outline-none text-white appearance-none">
+<option>System Infrastructure (Web)</option>
+<option>Mobile Unit (App)</option>
+<option>Social Expansion (Marketing)</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-slate-400">Project Brief</label>
+<textarea class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 focus:ring-2 focus:ring-primary focus:outline-none text-white" placeholder="Tell us about the challenge..." rows="4"></textarea>
+</div>
+<button class="w-full neon-glow-pink py-5 rounded-xl font-bold flex items-center justify-center gap-3 hover:scale-[1.02] transition-transform text-white">
+                    Launch Transmission
+                    <span class="material-symbols-outlined">send</span>
+</button>
+<p class="text-[10px] text-center uppercase tracking-widest text-slate-500">Encrypted end-to-end // Zero-knowledge protocol active</p>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<footer class="py-16 bg-transparent border-t border-white/10 relative z-10">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-2 space-y-6">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white neon-glow-pink">
+<span class="material-symbols-outlined text-sm">rocket_launch</span>
+</div>
+<span class="font-display font-bold text-lg tracking-tight text-white uppercase">GENOX<span class="text-primary">LABS</span></span>
+</div>
+<p class="text-slate-500 max-w-xs leading-relaxed">
+                    Operating at the intersection of impossible and inevitable. Engineering the next generation of digital infrastructure.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-white transition-all backdrop-blur-md" href="#">
+<span class="material-symbols-outlined text-xl">public</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-white transition-all backdrop-blur-md" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase text-xs tracking-widest">Services</h4>
+<ul class="space-y-4 text-sm text-slate-500">
+<li><a class="hover:text-primary transition-colors" href="#">Web Development</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">App Development</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase text-xs tracking-widest">Explore</h4>
+<ul class="space-y-4 text-sm text-slate-500">
+<li><a class="hover:text-primary transition-colors" href="#">About</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[10px] text-slate-500 uppercase tracking-widest">© 2024 Genoxlab Systems. All rights reserved.</p>
+<div class="flex gap-8 text-[10px] text-slate-500 uppercase tracking-widest">
+<span>Silicon Valley HQ</span>
+<span class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> Uptime: 99.99%</span>
+</div>
+</div>
+</div>
+</footer>

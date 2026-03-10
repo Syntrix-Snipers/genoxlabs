@@ -1,80 +1,47 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["300", "400", "600", "700", "800", "900"],
-  variable: "--font-inter",
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-display",
   display: "swap",
 });
 
-const BASE_URL = "https://genox.com";
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-sans",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL(BASE_URL),
-  title: {
-    default: "GenoxLabs — Next Level Innovation | Coming Soon",
-    template: "%s | GenoxLabs",
-  },
-  description:
-    "GenoxLabs is arriving at genox.com — a next-generation platform engineered to redefine innovation. Join the frontier. Something extraordinary is coming.",
-  keywords: [
-    "GenoxLabs",
-    "genox.com",
-    "Genox",
-    "innovation",
-    "technology",
-    "AI platform",
-    "next-gen tech",
-    "coming soon",
-    "software",
-    "enterprise AI",
-    "developer tools",
-    "zero-latency",
-    "tech startup",
-  ],
-  authors: [{ name: "GenoxLabs", url: BASE_URL }],
+  title: "Genoxlab | Cinematic Web3 Agency",
+  description: "Deploying hyper-performance decentralized systems and immersive digital identities for the next generation of the internet.",
+  keywords: ["Web3", "Agency", "Blockchain", "React", "Next.js", "GenoxLabs", "Innovation"],
+  authors: [{ name: "GenoxLabs", url: "https://genoxlab.systems" }],
   creator: "GenoxLabs",
   publisher: "GenoxLabs",
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: BASE_URL,
-    siteName: "GenoxLabs",
-    title: "GenoxLabs — Next Level Innovation | Coming Soon",
-    description:
-      "GenoxLabs is arriving at genox.com — a next-generation platform engineered to redefine innovation. Something extraordinary is coming.",
+    url: "https://genoxlab.systems",
+    siteName: "Genoxlab",
+    title: "Genoxlab | Cinematic Web3 Agency",
+    description: "Deploying hyper-performance decentralized systems and immersive digital identities.",
     images: [
       {
         url: "/bannerlogo.jpeg",
         width: 1200,
-        height: 400,
-        alt: "GenoxLabs — Next Level Innovation",
-        type: "image/jpeg",
+        height: 630,
+        alt: "Genoxlab Agency",
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@genoxlabs",
-    creator: "@genoxlabs",
-    title: "GenoxLabs — Next Level Innovation | Coming Soon",
-    description:
-      "GenoxLabs is arriving at genox.com — a next-generation platform engineered to redefine innovation. Something extraordinary is coming.",
-    images: ["/bannerlogo.jpeg"],
   },
   icons: {
     icon: [
@@ -82,22 +49,7 @@ export const metadata: Metadata = {
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
-    apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-    ],
-    other: [
-      {
-        rel: "mask-icon",
-        url: "/android-chrome-192x192.png",
-        color: "#800080",
-      },
-    ],
   },
-  manifest: "/site.webmanifest",
-  alternates: {
-    canonical: BASE_URL,
-  },
-  category: "technology",
 };
 
 export default function RootLayout({
@@ -109,36 +61,28 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "GenoxLabs",
-    url: BASE_URL,
-    logo: `${BASE_URL}/sqlogo.jpeg`,
-    description:
-      "GenoxLabs is a next-generation technology platform engineered to redefine innovation.",
+    url: "https://genoxlab.systems",
+    logo: "https://genoxlab.systems/sqlogo.jpeg",
+    description: "GenoxLabs is a next-generation technology platform engineered to redefine innovation.",
     sameAs: [
       "https://twitter.com/genoxlabs",
       "https://linkedin.com/company/genoxlabs",
       "https://github.com/genoxlabs",
     ],
-    contactPoint: {
-      "@type": "ContactPoint",
-      contactType: "customer support",
-      url: BASE_URL,
-    },
   };
 
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable} scroll-smooth dark`}>
       <head>
-        <meta name="theme-color" content="#800080" />
-        <meta name="color-scheme" content="dark" />
-        <meta name="msapplication-TileColor" content="#800080" />
-        <meta name="msapplication-TileImage" content="/android-chrome-192x192.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body>{children}</body>
+      <body className="antialiased selection:bg-primary selection:text-white">
+        {children}
+      </body>
     </html>
   );
 }
