@@ -26,7 +26,7 @@ export default function SocialGrowth() {
                             { icon: "hub", label: "Global Community Architecture" }
                         ].map((item, idx) => (
                             <div key={idx} className="flex items-center gap-4 md:gap-6 group cursor-default">
-                                <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full glass-glow flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all shadow-lg shadow-primary/20 border border-primary/20">
+                                <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full glass-glow flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all shadow-lg shadow-secondary/20 border border-secondary/20">
                                     <span className="material-symbols-outlined text-sm md:text-base">{item.icon}</span>
                                 </div>
                                 <span className="font-bold uppercase tracking-widest text-[9px] md:text-sm text-white/80">{item.label}</span>
@@ -34,7 +34,7 @@ export default function SocialGrowth() {
                         ))}
                     </div>
 
-                    <button className="glow-button w-full sm:w-auto bg-gradient-to-r from-primary to-secondary text-white px-10 py-4 md:px-12 md:py-5 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all shadow-xl">
+                    <button className="glow-button w-full sm:w-auto bg-primary text-white px-10 py-4 md:px-12 md:py-5 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all shadow-xl">
                         Request Strategy Quote
                     </button>
                 </div>

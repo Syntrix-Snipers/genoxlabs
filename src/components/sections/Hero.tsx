@@ -6,14 +6,14 @@ export default function Hero() {
     return (
         <section className="min-h-screen flex items-center pt-32 pb-16 md:pb-24 px-4 md:px-6 relative overflow-hidden" id="nexus">
             {/* Design Globes for Hero */}
-            <div className="absolute top-1/4 -right-20 w-80 h-80 bg-primary/20 rounded-full blur-[100px] pointer-events-none opacity-40"></div>
+            <div className="absolute top-1/4 -right-20 w-80 h-80 bg-secondary/20 rounded-full blur-[100px] pointer-events-none opacity-40"></div>
             <div className="absolute bottom-1/4 -left-20 w-96 h-96 bg-secondary/15 rounded-full blur-[120px] pointer-events-none opacity-30"></div>
 
             <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
                 <div className="space-y-6 md:space-y-10 text-center lg:text-left z-10 order-2 lg:order-1">
-                    <div className="inline-flex items-center space-x-3 glass-glow px-4 md:px-6 py-2 rounded-full border border-primary/30 mx-auto lg:mx-0">
-                        <span className="flex h-2 w-2 rounded-full bg-primary animate-ping"></span>
-                        <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.3em] text-primary">Web3 Architectural Lab</span>
+                    <div className="inline-flex items-center space-x-3 glass-glow px-4 md:px-6 py-2 rounded-full border border-secondary/30 mx-auto lg:mx-0">
+                        <span className="flex h-2 w-2 rounded-full bg-secondary animate-ping"></span>
+                        <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.3em] text-secondary">Web3 Architectural Lab</span>
                     </div>
                     <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] text-white uppercase tracking-tighter shadow-sm">
                         Crafting the <br />

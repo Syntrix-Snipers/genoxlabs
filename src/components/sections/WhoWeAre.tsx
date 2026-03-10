@@ -16,7 +16,7 @@ export default function WhoWeAre() {
 
                         <div className="grid grid-cols-1 gap-8 md:gap-12 pt-4 md:pt-8 text-left max-w-sm mx-auto lg:mx-0 font-medium">
                             <div className="flex items-start gap-6 md:gap-8 group/item">
-                                <div className="w-12 h-12 md:w-14 md:h-14 shrink-0 rounded-2xl glass-glow flex items-center justify-center text-primary group-hover/item:bg-primary group-hover/item:text-white transition-all shadow-xl shadow-primary/20 border border-primary/20">
+                                <div className="w-12 h-12 md:w-14 md:h-14 shrink-0 rounded-2xl glass-glow flex items-center justify-center text-secondary group-hover/item:bg-secondary group-hover/item:text-white transition-all shadow-xl shadow-secondary/20 border border-secondary/20">
                                     <span className="material-symbols-outlined text-2xl md:text-3xl">public</span>
                                 </div>
                                 <div>
@@ -50,7 +50,7 @@ export default function WhoWeAre() {
                                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrE0rtR4-goMQRwl5WOuCgs8b4ZGrG_rofZ6By3HxOQBEZZnS7a0NP9ec-PCOgHTg8-01K1mDENy4vXsk8wj4qigkQEbT1EHNzeG1wN5fBP3mUodCxrw8ltiS6GabGuAQ7P5ohJzkrL33E5xUV2kPJLLQ01MsIlaMUQSdMIvb4ZivgA10xlFS3UR0GtPFZy-W1k998FOhxPZNjdKTDG6ldJ3MH9ch__vDCUrNvxblNRbUva-aoVs0Sw9laoQRG_9jGGyHANqZDVw"
                                 fill
                             />
-                            <div className="absolute inset-0 bg-primary/20 mix-blend-multiply opacity-40 hover:opacity-0 transition-opacity duration-700"></div>
+                            <div className="absolute inset-0 bg-secondary/20 mix-blend-multiply opacity-40 hover:opacity-0 transition-opacity duration-700"></div>
                         </div>
                     </div>
                 </div>

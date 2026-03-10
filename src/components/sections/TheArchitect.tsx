@@ -25,13 +25,13 @@ export default function TheArchitect() {
                         {/* 12+ Years badge - responsive size and position */}
                         <div className="absolute -bottom-6 -left-2 md:-bottom-10 md:-left-10 z-20 glass-glow p-5 md:p-8 rounded-2xl md:rounded-3xl shadow-2xl border border-primary/20 scale-90 md:scale-110">
                             <p className="text-3xl md:text-5xl font-black text-white mb-1">12+</p>
-                            <p className="text-[9px] md:text-[11px] uppercase tracking-[0.2em] text-primary font-black">Years of Innovation</p>
+                            <p className="text-[9px] md:text-[11px] uppercase tracking-[0.2em] text-secondary font-black">Years of Innovation</p>
                         </div>
                     </div>
 
                     <div className="space-y-8 md:space-y-12 order-1 lg:order-2 max-w-2xl mx-auto lg:mx-0">
                         <div className="space-y-4 md:space-y-6">
-                            <h2 className="text-primary font-black tracking-[0.3em] uppercase text-[9px] md:text-xs">The Visionary</h2>
+                            <h2 className="text-secondary font-black tracking-[0.3em] uppercase text-[9px] md:text-xs">The Visionary</h2>
                             <h3 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
                                 The Architect Behind <br /> <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-white">Genoxlab</span>
                             </h3>
@@ -57,7 +57,7 @@ export default function TheArchitect() {
                         </div>
 
                         <div className="pt-4 flex justify-center lg:justify-start">
-                            <button className="border-b-2 border-primary text-primary font-bold pb-2 hover:text-white hover:border-white transition-all text-sm md:text-lg flex items-center gap-2 group tracking-widest uppercase">
+                            <button className="border-b-2 border-secondary text-secondary font-bold pb-2 hover:text-white hover:border-white transition-all text-sm md:text-lg flex items-center gap-2 group tracking-widest uppercase">
                                 Download Agency Profile <span className="material-symbols-outlined group-hover:translate-y-1 transition-all duration-300">download</span>
                             </button>
                         </div>

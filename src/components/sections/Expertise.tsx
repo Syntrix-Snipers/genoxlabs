@@ -23,7 +23,7 @@ export default function Expertise() {
                             style={{ boxShadow: 'inset -20px -20px 60px rgba(0,0,0,0.5), 0 0 80px rgba(189,61,246,0.3)' }}></div>
 
                         <div className="relative z-10 space-y-6 md:space-y-8 text-center md:text-left">
-                            <div className="text-primary font-black uppercase tracking-widest text-[9px] md:text-xs">01 / Full-Stack Ecosystems</div>
+                            <div className="text-secondary font-black uppercase tracking-widest text-[9px] md:text-xs">01 / Full-Stack Ecosystems</div>
                             <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-[1.1] uppercase tracking-tighter">Web <br className="hidden md:block" /> Development</h3>
                             <div className="space-y-5 md:space-y-6 max-w-lg mx-auto md:mx-0">
                                 {[
@@ -32,7 +32,7 @@ export default function Expertise() {
                                     { icon: "search", title: "SEO Dominance", desc: "Technical optimization that puts you at the top of results." }
                                 ].map((item, idx) => (
                                     <div key={idx} className="flex items-start gap-4 group text-left">
-                                        <div className="w-10 h-10 shrink-0 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all shadow-sm">
+                                        <div className="w-10 h-10 shrink-0 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all shadow-sm">
                                             <span className="material-symbols-outlined text-xl">{item.icon}</span>
                                         </div>
                                         <div>
@@ -42,7 +42,7 @@ export default function Expertise() {
                                     </div>
                                 ))}
                             </div>
-                            <button className="glow-button w-full sm:w-auto flex items-center justify-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-primary font-black uppercase tracking-widest text-[10px] md:text-xs">
+                            <button className="glow-button w-full sm:w-auto flex items-center justify-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs">
                                 Request Demo <span className="material-symbols-outlined text-sm">bolt</span>
                             </button>
                         </div>
@@ -55,7 +55,7 @@ export default function Expertise() {
                                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6hJ0m2bR0r24lDeatTS8fY4vr2-PYCldjQgNCDf4JuZFXb9ZEzt3t8DskUsZmsiXiliVSaMayxP-xt5AHQ7XzSksYeTtOV_Eii_ii5uM1t-msHXPgHahdePNSzzQxWi49ExaA0dsrAx7CoPSvHtH-hR6YM9OxmvjV6Tam88OyiwS0kIKKcH-5pTTCVW6lA8lJjfutWzGDJ_QHahKfeyW22eafmg4hIVGzVD3FRdA7rzyte0AaXYCgEU0fMJXNk6banS0Zc_Ap9pqJ"
                                 fill
                             />
-                            <div className="absolute inset-0 bg-primary/10 mix-blend-multiply opacity-50"></div>
+                            <div className="absolute inset-0 bg-secondary/10 mix-blend-multiply opacity-50"></div>
                         </div>
                     </div>
                 </div>

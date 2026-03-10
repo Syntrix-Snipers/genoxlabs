@@ -36,7 +36,7 @@ export default function Navbar() {
                     {["Nexus", "Core", "Impact", "Origins"].map((item, idx) => (
                         <a
                             key={idx}
-                            className="text-[10px] lg:text-xs font-black uppercase tracking-[0.25em] hover:text-primary transition-colors text-white/70"
+                            className="text-[10px] lg:text-xs font-black uppercase tracking-[0.25em] hover:text-secondary transition-colors text-white/70"
                             href={`#${item.toLowerCase()}`}
                         >
                             {item}
@@ -67,7 +67,7 @@ export default function Navbar() {
                     {["Nexus", "Core", "Impact", "Origins"].map((item, idx) => (
                         <a
                             key={idx}
-                            className="text-4xl font-display font-black text-white uppercase tracking-tighter hover:text-primary transition-colors"
+                            className="text-4xl font-display font-black text-white uppercase tracking-tighter hover:text-secondary transition-colors"
                             href={`#${item.toLowerCase()}`}
                             onClick={() => setMobileMenuOpen(false)}
                         >

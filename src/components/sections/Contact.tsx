@@ -10,8 +10,8 @@ export default function Contact() {
                 <div className="space-y-12 max-w-2xl mx-auto lg:mx-0">
                     <div className="space-y-6 md:space-y-8 relative z-10">
                         <h2 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
-                            Let&apos;s <span className="text-secondary">Synthesize</span> <br />
-                            The <span className="text-primary">Next Big</span> Thing
+                            Let&apos;s Synthesize <br />
+                            The <span className="text-secondary">Next Big</span> Thing
                         </h2>
                         <p className="text-base md:text-xl text-slate-400 font-light max-w-lg leading-relaxed mx-auto lg:mx-0">
                             Our intake sensors are ready. Tell us about your objective and let&apos;s calculate the trajectory.
@@ -20,7 +20,7 @@ export default function Contact() {
 
                     <div className="space-y-6 md:space-y-8 relative z-10 px-4 md:px-0">
                         <div className="flex items-center gap-4 md:gap-6 group cursor-default justify-center lg:justify-start">
-                            <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full glass-glow flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all shadow-lg shadow-primary/20">
+                            <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full glass-glow flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all shadow-lg shadow-secondary/20">
                                 <span className="material-symbols-outlined text-sm md:text-base">rocket_launch</span>
                             </div>
                             <span className="font-bold uppercase tracking-widest text-[10px] md:text-xs text-white/70">Strategic Guidance</span>

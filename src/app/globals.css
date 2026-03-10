@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #ff5fb3;
-  --color-secondary: #bd3df6;
-  --color-accent: #6b00ff;
-  --color-deep-space: #020205;
-  --color-accent-blue: #0ea5e9;
-  --color-neon-blue: #22d3ee;
-  --color-neon-purple: #c084fc;
+  --color-primary: #3b82f6;
+  --color-secondary: #9333ea;
+  --color-accent: #7c3aed;
+  --color-deep-space: #020617;
+  --color-accent-blue: #38bdf8;
+  --color-neon-blue: #0ea5e9;
+  --color-neon-purple: #a855f7;
   --color-obsidian: #0f172a;
-  
+
   --font-display: "Space Grotesk", sans-serif;
   --font-sans: "Inter", sans-serif;
 }
@@ -17,7 +17,8 @@
 @layer base {
   body {
     @apply bg-deep-space text-slate-100 font-sans overflow-x-hidden;
-    background-color: #020205; /* Fallback */
+    background-color: #020617;
+    /* Fallback */
   }
 }
 
@@ -27,54 +28,67 @@
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
+
   .glass-glow {
     background: rgba(255, 95, 179, 0.05);
     backdrop-filter: blur(24px);
     border: 1px solid rgba(255, 95, 179, 0.2);
   }
+
   .glass-dark {
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.05);
   }
+
   .glass-panel {
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.05);
   }
+
   .glass-morphism {
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.05);
   }
+
   .glow-button {
     box-shadow: 0 0 20px rgba(255, 95, 179, 0.3);
     transition: all 0.3s ease;
   }
+
   .glow-button:hover {
     box-shadow: 0 0 40px rgba(255, 95, 179, 0.6);
     transform: translateY(-2px);
   }
+
   .glow-blue {
     box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
   }
+
   .glow-blue:hover {
     box-shadow: 0 0 40px rgba(34, 211, 238, 0.6);
   }
+
   .neon-glow-pink {
     box-shadow: 0 0 15px rgba(255, 95, 179, 0.5), inset 0 0 10px rgba(255, 95, 179, 0.2);
   }
+
   .neo-brutal-border {
     border: 2px solid theme('colors.primary');
     box-shadow: 4px 4px 0 theme('colors.primary');
   }
+
   .neo-brutal-border:hover {
     box-shadow: 0 0 0 theme('colors.primary');
     transform: translate(4px, 4px);
   }
+
   .tech-card {
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
+
   .tech-card:hover {
     transform: scale(1.05);
     border-color: #ff5fb3;
@@ -87,8 +101,9 @@
   position: fixed;
   inset: 0;
   z-index: -10;
-  background: radial-gradient(circle at center, #0a0a1a 0%, #020205 100%);
+  background: radial-gradient(circle at center, #030014 0%, #020617 100%);
 }
+
 .star {
   position: absolute;
   background: white;
@@ -96,10 +111,21 @@
   opacity: 0.5;
   animation: glimmer 3s infinite ease-in-out;
 }
+
 @keyframes glimmer {
-  0%, 100% { opacity: 0.3; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.2); }
+
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
 }
+
 .satellite {
   position: absolute;
   width: 2px;
@@ -108,26 +134,34 @@
   box-shadow: 0 0 10px #fff;
   animation: drift linear infinite;
 }
+
 @keyframes drift {
-  from { transform: translateX(-10vw) translateY(0); }
-  to { transform: translateX(110vw) translateY(20vh); }
+  from {
+    transform: translateX(-10vw) translateY(0);
+  }
+
+  to {
+    transform: translateX(110vw) translateY(20vh);
+  }
 }
+
 .fireball-planet {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle at 30% 30%, #ffffff 0%, #ff5fb3 30%, #bd3df6 60%, #020205 100%);
+  background: radial-gradient(circle at 30% 30%, #ffffff 0%, theme('colors.primary') 30%, theme('colors.secondary') 60%, #020617 100%);
   border-radius: 50%;
   position: fixed;
   z-index: -5;
-  box-shadow: 0 0 120px rgba(255, 95, 179, 0.4), 
-              inset -50px -50px 100px rgba(0,0,0,0.8),
-              inset 20px 20px 60px rgba(255,255,255,0.2);
+  box-shadow: 0 0 120px rgba(255, 95, 179, 0.4),
+    inset -50px -50px 100px rgba(0, 0, 0, 0.8),
+    inset 20px 20px 60px rgba(255, 255, 255, 0.2);
   pointer-events: none;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   transition: transform 0.5s ease-out;
 }
+
 .mesh-container {
   position: fixed;
   inset: 0;
@@ -135,22 +169,38 @@
   opacity: 0.15;
   pointer-events: none;
 }
+
 .mesh-line {
   position: absolute;
   width: 200%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #ff5fb3, #6b00ff, transparent);
+  background: linear-gradient(90deg, transparent, theme('colors.primary'), theme('colors.secondary'), transparent);
   transform: rotate(-15deg);
   animation: mesh-flow 10s infinite linear;
 }
+
 @keyframes mesh-flow {
-  0% { transform: translateX(-50%) translateY(0) rotate(-15deg); }
-  100% { transform: translateX(0%) translateY(100px) rotate(-15deg); }
+  0% {
+    transform: translateX(-50%) translateY(0) rotate(-15deg);
+  }
+
+  100% {
+    transform: translateX(0%) translateY(100px) rotate(-15deg);
+  }
 }
+
 .floating-element {
   animation: float 6s infinite ease-in-out;
 }
+
 @keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-20px) rotate(2deg); }
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-20px) rotate(2deg);
+  }
 }

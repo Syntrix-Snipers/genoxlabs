@@ -39,8 +39,8 @@ export default function Footer() {
                         <ul className="space-y-4 text-[10px] md:text-xs font-black uppercase tracking-widest text-slate-500">
                             {["Core Units", "Lab Archives", "Human Resources", "Legal Dept."].map((item, idx) => (
                                 <li key={idx}>
-                                    <a className="hover:text-primary transition-all flex items-center gap-2 group justify-center sm:justify-start" href="#">
-                                        <span className="h-1 w-0 bg-primary group-hover:w-4 transition-all duration-300"></span>
+                                    <a className="hover:text-secondary transition-all flex items-center gap-2 group justify-center sm:justify-start" href="#">
+                                        <span className="h-1 w-0 bg-secondary group-hover:w-4 transition-all duration-300"></span>
                                         {item}
                                     </a>
                                 </li>

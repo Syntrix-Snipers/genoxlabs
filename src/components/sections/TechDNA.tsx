@@ -2,12 +2,12 @@
 
 export default function TechDNA() {
     const techs = [
-        { name: "React", icon: "terminal", color: "primary" },
+        { name: "React", icon: "terminal", color: "secondary" },
         { name: "Next.js", icon: "layers", color: "secondary" },
-        { name: "GraphQL", icon: "database", color: "accent" },
-        { name: "Solidity", icon: "security", color: "primary" },
+        { name: "GraphQL", icon: "database", color: "secondary" },
+        { name: "Solidity", icon: "security", color: "secondary" },
         { name: "AWS", icon: "cloud_done", color: "secondary" },
-        { name: "Ethers.js", icon: "token", color: "accent" }
+        { name: "Ethers.js", icon: "token", color: "secondary" }
     ];
 
     return (

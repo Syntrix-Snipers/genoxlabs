@@ -10,7 +10,7 @@ export default function CTA() {
 
                 <div className="relative z-10 max-w-2xl mx-auto space-y-8">
                     <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter text-white leading-tight">
-                        Ready to start your <span className="text-primary">next project?</span>
+                        Ready to start your <span className="text-secondary">next project?</span>
                     </h2>
                     <p className="text-slate-400 text-lg md:text-xl font-light leading-relaxed">
                         Join dozens of forward-thinking companies that trust us to build their digital products.
