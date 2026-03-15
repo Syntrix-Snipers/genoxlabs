@@ -12,7 +12,7 @@ export default function CTA() {
                     <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter text-white leading-tight">
                         Ready to start your <span className="text-secondary">next project?</span>
                     </h2>
-                    <p className="text-slate-400 text-lg md:text-xl font-light leading-relaxed">
+                    <p className="text-white text-lg md:text-xl font-light leading-relaxed">
                         Join dozens of forward-thinking companies that trust us to build their digital products.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">

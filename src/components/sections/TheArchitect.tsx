@@ -35,7 +35,7 @@ export default function TheArchitect() {
                             <h3 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
                                 The Architect Behind <br /> <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-white">Genoxlab</span>
                             </h3>
-                            <p className="text-base md:text-xl text-slate-400 font-light leading-relaxed">
+                            <p className="text-white text-base md:text-xl text-slate-400 font-light leading-relaxed">
                                 &quot;In a world where digital noise is constant, true innovation lies in the synthesis of logic and emotion. At Genoxlab, we don&apos;t just build software; we craft the future infrastructure of human interaction.&quot;
                             </p>
                         </div>

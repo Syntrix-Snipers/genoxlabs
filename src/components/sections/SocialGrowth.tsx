@@ -14,7 +14,7 @@ export default function SocialGrowth() {
                         <h2 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
                             Social Growth <br className="hidden md:block" /> &amp; Marketing
                         </h2>
-                        <p className="text-base md:text-xl text-slate-400 font-light leading-relaxed max-w-xl mx-auto lg:mx-0">
+                        <p className="text-white text-base md:text-xl text-slate-400 font-light leading-relaxed max-w-xl mx-auto lg:mx-0">
                             Data-driven virality. We scale audiences using proprietary algorithms and creative psychology to turn projects into movements.
                         </p>
                     </div>

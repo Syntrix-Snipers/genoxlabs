@@ -13,7 +13,7 @@ export default function Contact() {
                             Let&apos;s Synthesize <br />
                             The <span className="text-secondary">Next Big</span> Thing
                         </h2>
-                        <p className="text-base md:text-xl text-slate-400 font-light max-w-lg leading-relaxed mx-auto lg:mx-0">
+                        <p className="text-white text-base md:text-xl text-slate-400 font-light max-w-lg leading-relaxed mx-auto lg:mx-0">
                             Our intake sensors are ready. Tell us about your objective and let&apos;s calculate the trajectory.
                         </p>
                     </div>

@@ -14,7 +14,7 @@ export default function Footer() {
                             </div>
                             <span className="font-display font-black text-2xl tracking-tighter text-white">GENOXLAB</span>
                         </div>
-                        <p className="text-slate-500 max-w-sm leading-relaxed font-light text-base md:text-lg">
+                        <p className="text-white max-w-sm leading-relaxed font-light text-base md:text-lg">
                             Pioneering the next era of digital interaction and decentralized protocols with surgical precision.
                         </p>
                         <div className="flex space-x-6 justify-center sm:justify-start">
