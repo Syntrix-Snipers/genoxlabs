@@ -15,7 +15,7 @@ export default function TechDNA() {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-24 space-y-6">
                     <h2 className="font-display text-5xl font-black text-white uppercase tracking-tighter">Technological DNA</h2>
-                    <p className="text-slate-400 uppercase tracking-widest text-xs md:text-sm">Built on the world&apos;s most robust frameworks</p>
+                    <p className="text-white uppercase tracking-widest text-xs md:text-sm">Built on the world&apos;s most robust frameworks</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
                     {techs.map((tech, idx) => (

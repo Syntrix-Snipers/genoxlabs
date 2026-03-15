@@ -29,7 +29,7 @@ export default function SocialInfluence() {
             <div className="max-w-7xl mx-auto space-y-20">
                 <div className="text-center space-y-4">
                     <h2 className="font-display text-5xl md:text-6xl font-black text-white uppercase tracking-tighter">Social Influence</h2>
-                    <p className="text-slate-400 font-light text-xl max-w-2xl mx-auto leading-relaxed">Command the digital landscape with high-fidelity creative assets.</p>
+                    <p className="text-white font-light text-xl max-w-2xl mx-auto leading-relaxed">Command the digital landscape with high-fidelity creative assets.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                     {cards.map((card, idx) => (

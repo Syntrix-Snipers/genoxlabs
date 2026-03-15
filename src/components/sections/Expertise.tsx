@@ -32,16 +32,22 @@ export default function Expertise() {
                                     { icon: "search", title: "SEO Dominance", desc: "Technical optimization that puts you at the top of results." }
                                 ].map((item, idx) => (
                                     <div key={idx} className="flex items-start gap-4 group text-left">
-                                        <div className="w-10 h-10 shrink-0 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all shadow-sm">
-                                            <span className="material-symbols-outlined text-xl">{item.icon}</span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-base md:text-lg font-bold text-white uppercase tracking-tight">{item.title}</h4>
-                                            <p className="text-slate-400 text-xs md:text-sm leading-relaxed">{item.desc}</p>
-                                        </div>
+                                    <div className="w-10 h-10 shrink-0 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all shadow-sm">
+                                        <span className="material-symbols-outlined text-xl">{item.icon}</span>
+                                    </div>
+
+                                    <div>
+                                        <h4 className="text-base md:text-lg font-bold text-white uppercase tracking-tight">
+                                        {item.title}
+                                        </h4>
+
+                                        <p className="text-white text-xs md:text-sm leading-relaxed">
+                                        {item.desc}
+                                        </p>
+                                    </div>
                                     </div>
                                 ))}
-                            </div>
+                                </div>
                             <button className="glow-button w-full sm:w-auto flex items-center justify-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs">
                                 Request Demo <span className="material-symbols-outlined text-sm">bolt</span>
                             </button>
@@ -97,7 +103,7 @@ export default function Expertise() {
                                         </div>
                                         <div>
                                             <h4 className="text-base md:text-lg font-bold text-white uppercase tracking-tight">{item.title}</h4>
-                                            <p className="text-slate-400 text-xs md:text-sm leading-relaxed">{item.desc}</p>
+                                            <p className="text-white text-xs md:text-sm leading-relaxed">{item.desc}</p>
                                         </div>
                                     </div>
                                 ))}
