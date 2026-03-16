@@ -148,7 +148,13 @@
 .fireball-planet {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle at 30% 30%, #ffffff 0%, var(--color-primary) 30%, var(--color-secondary) 60%, #020617 100%);
+background: radial-gradient(
+  circle at 1% 10%,
+  rgba(255,255,255,0.92) 0%,
+  color-mix(in srgb, var(--color-primary) 60%, #000 40%) 30%,
+  color-mix(in srgb, var(--color-secondary) 55%, #000 85%) 60%,
+  #020617 100%
+);
   border-radius: 50%;
   position: fixed;
   z-index: -5;
@@ -577,3 +583,4 @@
     transform: translateY(-20px) rotate(2deg);
   }
 }
+
