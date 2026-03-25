@@ -24,7 +24,7 @@ export default function TheArchitect() {
 
                         {/* 12+ Years badge - responsive size and position */}
                         <div className="absolute -bottom-6 -left-2 md:-bottom-10 md:-left-10 z-20 glass-glow p-5 md:p-8 rounded-2xl md:rounded-3xl shadow-2xl border border-primary/20 scale-90 md:scale-110">
-                            <p className="text-3xl md:text-5xl font-black text-white mb-1">12+</p>
+                            <p className="text-3xl md:text-5xl font-black text-white mb-1">2+</p>
                             <p className="text-[9px] md:text-[11px] uppercase tracking-[0.2em] text-secondary font-black">Years of Innovation</p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export default function TheArchitect() {
                         <div className="space-y-4 md:space-y-6">
                             <h2 className="text-secondary font-black tracking-[0.3em] uppercase text-[9px] md:text-xs">The Visionary</h2>
                             <h3 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
-                                The Architect Behind <br /> <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-white">Genoxlab</span>
+                                The Architect Behind <br /> <span className="inline-block">Genoxlabs</span>
                             </h3>
                             <p className="text-white text-base md:text-xl text-slate-400 font-light leading-relaxed">
                                 &quot;In a world where digital noise is constant, true innovation lies in the synthesis of logic and emotion. At Genoxlab, we don&apos;t just build software; we craft the future infrastructure of human interaction.&quot;
