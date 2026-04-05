@@ -40,26 +40,27 @@ export default function SocialGrowth() {
                 </div>
 
                 <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end px-4">
-                    <div className="relative w-full max-w-sm md:max-w-lg aspect-square scale-90 md:scale-100">
+                    <div className="relative w-full max-w-2xl md:max-w-[72rem] aspect-square scale-90 md:scale-100">
                         {/* Mobile App View with floating elements */}
-                        <div className="absolute inset-0 flex items-center justify-center p-4 md:p-8">
-                            <div className="relative w-56 h-[400px] md:w-64 md:h-[500px] bg-deep-space rounded-[2.5rem] md:rounded-[3rem] border-4 md:border-8 border-white/5 shadow-2xl overflow-hidden glass-glow">
-                                <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-transparent to-secondary/10"></div>
-                                <div className="p-6 md:p-8 space-y-4 md:space-y-6">
-                                    <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/30 rounded-xl md:rounded-2xl flex items-center justify-center">
-                                        <span className="material-symbols-outlined text-white text-lg">hub</span>
-                                    </div>
-                                    <div className="h-3 md:h-4 w-3/4 bg-white/10 rounded"></div>
-                                    <div className="h-3 md:h-4 w-1/2 bg-white/10 rounded"></div>
-                                    <div className="grid grid-cols-1 gap-3 md:gap-4 pt-6 md:pt-10">
-                                        <div className="h-24 md:h-32 bg-white/5 rounded-xl md:rounded-2xl relative overflow-hidden">
-                                            <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDgH5MrOe5-Sghkoe1XugovjWnJuBnD0iADgkHyShihhjo8cBWELQiZx6KmHZrnYvRtLI9S7nsDHiY-Nix1Kc7ZX-4KY2qHA0kpmTI-PG98akoMbQHQ6jKLYTNNFJMpb8xhot_9czEJb6HklWUDOg17H4MZRHKn4Z4XPc8HIHNs7mrQuCnqzhXczP1g8nYPGJuRYtu-TMsBjkTn3SuYB1s4Nj_q5iX3AA6HrX7g4x9uhWydY7S5Qnfp6VpOEzvBQnAhJlGyxGTA96m"
-                                                alt="Campaign" fill className="object-cover opacity-50" />
-                                        </div>
-                                        <div className="h-16 md:h-20 bg-white/5 rounded-xl md:rounded-2xl border border-white/10 flex items-center justify-center">
-                                            <p className="text-[8px] md:text-[10px] font-black uppercase text-primary tracking-[0.2em] animate-pulse text-center">Live Campaign</p>
-                                        </div>
-                                    </div>
+                        <div className="absolute inset-0 flex items-center justify-center p-2 md:p-4">
+                            <div className="relative w-full h-full max-w-[42rem]">
+                                <div className="absolute inset-6 rounded-[2rem] bg-gradient-to-br from-primary/15 via-transparent to-secondary/20 blur-2xl opacity-70"></div>
+                                <div className="relative w-full h-full">
+                                <div className="absolute left-1 top-2 md:left-2 md:top-3 w-[52%] h-[60%] md:w-[54%] md:h-[62%] rounded-2xl md:rounded-3xl overflow-hidden border border-white/20 shadow-2xl glass-glow -rotate-6 hover:rotate-0 transition-all duration-500">
+                                    <Image src="/social-media.webp" alt="Social Media Presence" fill className="object-cover" />
+                                </div>
+
+                                <div className="absolute right-0 top-0 md:right-1 md:top-1 w-[46%] h-[32%] md:w-[44%] md:h-[34%] rounded-xl md:rounded-2xl overflow-hidden border border-white/20 shadow-xl glass-glow rotate-3 hover:rotate-0 transition-all duration-500">
+                                    <Image src="/logocard_result.webp" alt="Logo Design" fill className="object-cover" />
+                                </div>
+
+                                <div className="absolute right-1 bottom-6 md:right-2 md:bottom-10 w-[54%] h-[45%] md:w-[53%] md:h-[46%] rounded-2xl md:rounded-3xl overflow-hidden border border-white/20 shadow-2xl glass-glow rotate-6 hover:rotate-0 transition-all duration-500">
+                                    <Image src="/socialgrow_result.webp" alt="Mobile Experience" fill className="object-cover" />
+                                </div>
+
+                                <div className="absolute left-4 bottom-0 md:left-7 md:bottom-2 w-[36%] h-[30%] md:w-[37%] md:h-[31%] rounded-xl md:rounded-2xl overflow-hidden border border-white/20 shadow-xl glass-glow -rotate-3 hover:rotate-0 transition-all duration-500">
+                                    <Image src="/mobilev_result.webp" alt="Growth Strategy" fill className="object-cover" />
+                                </div>
                                 </div>
                             </div>
                         </div>
