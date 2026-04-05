@@ -58,7 +58,7 @@ export default function Expertise() {
                             <Image
                                 alt="Web Structure"
                                 className="rounded-[26px] md:rounded-[36px] w-full h-full object-cover hover:scale-105 transition-all duration-700"
-                                src="/web-dev.webp"
+                                src="/web-dev2.webp"
                                 fill
                             />
                         </div>

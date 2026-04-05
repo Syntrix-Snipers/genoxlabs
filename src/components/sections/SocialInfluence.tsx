@@ -7,7 +7,7 @@ export default function SocialInfluence() {
         {
             title: "Flyer Creation",
             desc: "Cinematic event assets designed for maximum digital impact.",
-            img: "/flyer_result.webp",
+            img: "/flyer.webp",
             color: "primary"
         },
         {
