@@ -4,12 +4,12 @@ import Image from "next/image";
 
 export default function TheArchitect() {
     return (
-        <section className="py-24 md:py-40 px-4 md:px-6 relative overflow-hidden" id="about">
+        <section className="py-12 md:py-20 px-4 md:px-6 relative overflow-hidden" id="about">
             {/* Design Globes */}
             <div className="absolute top-1/4 -right-20 w-48 md:w-80 h-48 md:h-80 bg-primary/20 rounded-full blur-[80px] md:blur-[100px] pointer-events-none opacity-40"></div>
 
-            <div className="max-w-7xl mx-auto space-y-16 md:space-y-20 relative z-10 text-center lg:text-left">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-32 items-center">
+            <div className="max-w-7xl mx-auto space-y-8 md:space-y-10 relative z-10 text-center lg:text-left">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
                     <div className="order-2 lg:order-1 relative w-full px-4 md:px-0">
                         <div className="absolute -inset-10 bg-accent/20 blur-3xl rounded-full opacity-40"></div>
                         <div className="relative glass-glow p-3 md:p-4 rounded-[40px] md:rounded-[60px] border border-white/20 overflow-hidden shadow-2xl aspect-[4/5] max-w-sm md:max-w-lg mx-auto bg-deep-space">
@@ -29,9 +29,9 @@ export default function TheArchitect() {
                         </div>
                     </div>
 
-                    <div className="space-y-8 md:space-y-12 order-1 lg:order-2 max-w-2xl mx-auto lg:mx-0">
-                        <div className="space-y-4 md:space-y-6">
-                            <h2 className="text-secondary font-black tracking-[0.3em] uppercase text-[9px] md:text-xs">The Visionary</h2>
+                    <div className="space-y-4 md:space-y-6 order-1 lg:order-2 max-w-2xl mx-auto lg:mx-0">
+                        <div className="space-y-2 md:space-y-3">
+                            <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.3em] text-white">The Visionary</span>
                             <h3 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
                                 The Architect Behind <br /> <span className="inline-block">Genoxlabs</span>
                             </h3>
@@ -40,7 +40,7 @@ export default function TheArchitect() {
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 text-left">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4 text-left">
                             {[
                                 { icon: "visibility", title: "Vision", desc: "Global standard for software fusion.", color: "primary" },
                                 { icon: "architecture", title: "Approach", desc: "Minimalist logic, maximalist UI.", color: "secondary" },

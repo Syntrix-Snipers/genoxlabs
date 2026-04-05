@@ -4,28 +4,28 @@ import Image from "next/image";
 
 export default function Expertise() {
     return (
-        <section className="py-24 md:py-40 px-4 md:px-6 relative" id="core">
+        <section className="py-12 md:py-20 px-4 md:px-6 relative" id="core">
             {/* Design Globes */}
             <div className="absolute top-20 left-4 md:left-10 w-48 md:h-64 md:w-64 h-48 bg-secondary/20 rounded-full blur-[60px] md:blur-[80px] pointer-events-none opacity-50"></div>
             <div className="absolute bottom-20 right-4 md:right-10 w-64 md:w-96 md:h-96 h-64 bg-primary/10 rounded-full blur-[80px] md:blur-[100px] pointer-events-none opacity-40"></div>
 
-            <div className="max-w-7xl mx-auto space-y-24 md:space-y-40 relative">
+            <div className="max-w-7xl mx-auto space-y-12 md:space-y-20 relative">
                 <div className="text-center md:text-left max-w-3xl space-y-4 mx-auto md:mx-0">
                     <h2 className="font-display text-4xl sm:text-5xl md:text-7xl font-black text-white uppercase tracking-tighter shadow-sm">Core Expertise</h2>
                     <div className="h-1 w-24 md:w-40 bg-gradient-to-r from-primary to-transparent mx-auto md:mx-0"></div>
                 </div>
 
                 {/* Web Development Section */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-center">
-                    <div className="space-y-8 order-2 lg:order-1 relative">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                    <div className="space-y-4 order-2 lg:order-1 relative">
                         {/* Design Globe behind text on desktop */}
                         <div className="hidden lg:block absolute -top-32 -left-32 w-80 h-80 bg-gradient-to-br from-white/10 to-secondary/30 rounded-full shadow-2xl z-0 pointer-events-none opacity-60"
                             style={{ boxShadow: 'inset -20px -20px 60px rgba(0,0,0,0.5), 0 0 80px rgba(189,61,246,0.3)' }}></div>
 
-                        <div className="relative z-10 space-y-6 md:space-y-8 text-center md:text-left">
-                            <div className="text-secondary font-black uppercase tracking-widest text-[9px] md:text-xs">01 / Full-Stack Ecosystems</div>
+                        <div className="relative z-10 space-y-3 md:space-y-4 text-center md:text-left">
+                            <div className="text-secondary font-black uppercase tracking-widest text-[15px] text-white">01 / Full-Stack Ecosystems</div>
                             <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-[1.1] uppercase tracking-tighter">Web <br className="hidden md:block" /> Development</h3>
-                            <div className="space-y-5 md:space-y-6 max-w-lg mx-auto md:mx-0">
+                            <div className="space-y-2 md:space-y-3 max-w-lg mx-auto md:mx-0">
                                 {[
                                     { icon: "architecture", title: "Architecture", desc: "Headless CMS and Microservices built for infinite scale." },
                                     { icon: "speed", title: "Performance", desc: "Sub-second load times and 100/100 Lighthouse scores." },
@@ -48,7 +48,7 @@ export default function Expertise() {
                                     </div>
                                 ))}
                                 </div>
-                            <button className="glow-button w-full sm:w-auto flex items-center justify-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs">
+                            <button className="glow-button w-full sm:w-auto flex items-center justify-center gap-2 bg-white/5 border border-white/10 px-6 py-3 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs">
                                 Request Demo <span className="material-symbols-outlined text-sm">bolt</span>
                             </button>
                         </div>
@@ -89,7 +89,7 @@ export default function Expertise() {
                             style={{ boxShadow: 'inset -30px -30px 80px rgba(0,0,0,0.6), 0 0 100px rgba(255,95,179,0.3)' }}></div>
 
                         <div className="relative z-10 space-y-6 md:space-y-8 max-w-lg mx-auto md:mx-0">
-                            <div className="text-secondary font-black uppercase tracking-widest text-[9px] md:text-xs">02 / Mobility</div>
+                            <div className="text-secondary font-black uppercase tracking-widest text-[15px] text-white">02 / Mobility</div>
                             <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-[1.1] uppercase tracking-tighter">App <br className="hidden md:block" /> Development</h3>
                             <div className="space-y-5 md:space-y-6">
                                 {[
