@@ -57,11 +57,10 @@ export default function Expertise() {
                         <div className="glass-glow p-2 rounded-[30px] md:rounded-[40px] border border-white/10 shadow-2xl overflow-hidden relative aspect-video">
                             <Image
                                 alt="Web Structure"
-                                className="rounded-[26px] md:rounded-[36px] w-full h-full object-cover grayscale hover:grayscale-0 hover:scale-105 transition-all duration-700"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6hJ0m2bR0r24lDeatTS8fY4vr2-PYCldjQgNCDf4JuZFXb9ZEzt3t8DskUsZmsiXiliVSaMayxP-xt5AHQ7XzSksYeTtOV_Eii_ii5uM1t-msHXPgHahdePNSzzQxWi49ExaA0dsrAx7CoPSvHtH-hR6YM9OxmvjV6Tam88OyiwS0kIKKcH-5pTTCVW6lA8lJjfutWzGDJ_QHahKfeyW22eafmg4hIVGzVD3FRdA7rzyte0AaXYCgEU0fMJXNk6banS0Zc_Ap9pqJ"
+                                className="rounded-[26px] md:rounded-[36px] w-full h-full object-cover hover:scale-105 transition-all duration-700"
+                                src="/web-dev.webp"
                                 fill
                             />
-                            <div className="absolute inset-0 bg-secondary/10 mix-blend-multiply opacity-50"></div>
                         </div>
                     </div>
                 </div>
@@ -69,18 +68,13 @@ export default function Expertise() {
                 {/* App Development Section */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-center pt-8 md:pt-16">
                     <div className="order-1 floating-element relative px-4 lg:px-0">
-                        <div className="glass-glow p-3 md:p-4 rounded-[40px] md:rounded-[50px] border border-white/10 overflow-hidden relative h-[400px] md:h-[500px] w-full bg-slate-900 shadow-2xl">
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 md:w-64 h-[350px] md:h-[450px] lg:left-12 lg:translate-x-0 bg-deep-space rounded-[2.5rem] md:rounded-[3rem] border-4 md:border-8 border-white/5 shadow-2xl p-4 md:p-6 space-y-4 md:space-y-6">
-                                <div className="w-8 h-8 md:w-10 md:h-10 bg-primary/20 rounded-xl animate-pulse"></div>
-                                <div className="h-3 md:h-4 w-3/4 bg-white/5 rounded"></div>
-                                <div className="h-3 md:h-4 w-1/2 bg-white/5 rounded"></div>
-                                <div className="grid grid-cols-2 gap-3 md:gap-4 pt-6 md:pt-10">
-                                    <div className="h-16 md:h-20 bg-white/5 rounded-xl md:rounded-2xl"></div>
-                                    <div className="h-16 md:h-20 bg-white/5 rounded-xl md:rounded-2xl"></div>
-                                </div>
-                            </div>
-                            {/* Decorative second phone on desktop */}
-                            <div className="hidden lg:block absolute bottom-8 right-8 w-64 h-96 bg-deep-space rounded-[3rem] border-8 border-white/5 shadow-2xl p-6 space-y-6 opacity-30 transform translate-x-1/2 scale-90"></div>
+                        <div className="glass-glow p-2 rounded-[30px] md:rounded-[40px] border border-white/10 shadow-2xl overflow-hidden relative aspect-[4/3] md:aspect-[16/10]">
+                            <Image
+                                alt="App Development Preview"
+                                className="rounded-[26px] md:rounded-[36px] w-full h-full object-cover object-center hover:scale-105 transition-all duration-700"
+                                src="/app-dev.webp"
+                                fill
+                            />
                         </div>
                     </div>
                     <div className="space-y-8 order-2 relative text-center md:text-left">

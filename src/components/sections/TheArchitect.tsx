@@ -16,7 +16,7 @@ export default function TheArchitect() {
                             <Image
                                 alt="Technical Architecture"
                                 className="w-full h-full object-cover rounded-[30px] md:rounded-[50px] mix-blend-screen opacity-90"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRfpRcDPrIGwHJbzkTOyIpEq2zQchuVCm1vnZeXlqxttuuveCY_bXdxAnQM40Vg2Sah10rn6D54dyQ71VhpndmnWsrCRhcIPpt0sS-c50nKHW4QfMMVMu9W_qpB5NNdc4D9hAjNSgJngh3cPW2vluLsUHKWn1FP1_EDmxFL5ukuxqukNCWIMIQN-lmrWXqpPMfW-YrH1zYOVzEd2GnHaZUecWyuH0cqC5NZtdbHGVxwEltWRio-ICqB_vwallgDj-HTby1gVFVFA"
+                                src="/architecture.webp"
                                 fill
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-deep-space via-transparent to-transparent"></div>
