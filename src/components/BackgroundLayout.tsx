@@ -60,7 +60,7 @@ export default function BackgroundLayout() {
                 ))}
             </div>
 
-            <div className="fireball-planet" ref={planetRef} id="main-planet" aria-hidden="true">
+             <div className="fireball-planet" ref={planetRef} id="main-planet" aria-hidden="true">
                 <div className="smoke-cloud" />
                 <div className="fire-jets">
                     {[...Array(8)].map((_, i) => (
@@ -74,7 +74,9 @@ export default function BackgroundLayout() {
                         <div key={i} className={`shard-fragment shard-${i}`} />
                     ))}
                 </div>
-            </div>
+            </div> 
+
+            
         </>
     );
 }
