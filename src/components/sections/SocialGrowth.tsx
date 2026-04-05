@@ -4,22 +4,22 @@ import Image from "next/image";
 
 export default function SocialGrowth() {
     return (
-        <section className="py-24 md:py-40 px-4 md:px-6 relative overflow-hidden" id="impact">
+        <section className="py-12 md:py-20 px-4 md:px-6 relative overflow-hidden" id="impact">
             {/* Design Globes */}
             <div className="absolute top-1/2 -left-20 w-64 md:w-96 h-64 md:h-96 bg-primary/20 rounded-full blur-[80px] md:blur-[100px] pointer-events-none opacity-40"></div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-center mb-16 md:mb-32 group relative z-10 text-center lg:text-left">
-                <div className="space-y-8 md:space-y-10 order-2 lg:order-1 max-w-2xl mx-auto lg:mx-0">
-                    <div className="space-y-4 md:space-y-6">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center mb-8 md:mb-16 group relative z-10 text-center lg:text-left">
+                <div className="space-y-4 md:space-y-5 order-2 lg:order-1 max-w-2xl mx-auto lg:mx-0">
+                    <div className="space-y-2 md:space-y-3">
                         <h2 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
-                            Social Growth <br className="hidden md:block" /> &amp; Marketing
+                            Social Growth &<br className="hidden md:block" /> Marketing
                         </h2>
                         <p className="text-white text-base md:text-xl text-slate-400 font-light leading-relaxed max-w-xl mx-auto lg:mx-0">
                             Data-driven virality. We scale audiences using proprietary algorithms and creative psychology to turn projects into movements.
                         </p>
                     </div>
 
-                    <div className="space-y-5 md:space-y-6 px-4 md:px-0 text-left max-w-sm mx-auto lg:mx-0">
+                    <div className="space-y-2 md:space-y-3 px-2 md:px-0 text-left max-w-sm mx-auto lg:mx-0">
                         {[
                             { icon: "rocket_launch", label: "Strategic Branding & Velocity" },
                             { icon: "ads_click", label: "Hyper-Targeted Ad Operations" },

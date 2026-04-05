@@ -11,13 +11,13 @@ export default function TechDNA() {
     ];
 
     return (
-        <section className="py-40 px-6">
+        <section className="py-20 px-6">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-24 space-y-6">
+                <div className="text-center mb-10 space-y-3">
                     <h2 className="font-display text-5xl font-black text-white uppercase tracking-tighter">Technological DNA</h2>
                     <p className="text-white uppercase tracking-widest text-xs md:text-sm">Built on the world&apos;s most robust frameworks</p>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
                     {techs.map((tech, idx) => (
                         <div key={idx} className="glass tech-card p-10 rounded-[32px] text-center space-y-4 group">
                             <div className={`w-12 h-12 bg-${tech.color}/10 rounded-xl flex items-center justify-center mx-auto text-${tech.color} group-hover:bg-${tech.color} group-hover:text-white transition-all`}>

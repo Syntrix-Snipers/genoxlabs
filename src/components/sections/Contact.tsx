@@ -2,13 +2,13 @@
 
 export default function Contact() {
     return (
-        <section className="py-24 md:py-40 px-4 md:px-6 relative overflow-hidden" id="contact">
+        <section className="py-12 md:py-20 px-4 md:px-6 relative overflow-hidden" id="contact">
             {/* Design Globes */}
             <div className="absolute top-1/4 -left-20 w-64 md:w-80 h-64 md:h-80 bg-primary/20 rounded-full blur-[80px] md:blur-[100px] pointer-events-none opacity-40"></div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-32 items-center relative z-10 text-center lg:text-left">
-                <div className="space-y-12 max-w-2xl mx-auto lg:mx-0">
-                    <div className="space-y-6 md:space-y-8 relative z-10">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center relative z-10 text-center lg:text-left">
+                <div className="space-y-6 max-w-2xl mx-auto lg:mx-0">
+                    <div className="space-y-3 md:space-y-4 relative z-10">
                         <h2 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter leading-[1.1]">
                             Let&apos;s Synthesize <br />
                             The <span className="text-secondary">Next Big</span> Thing
@@ -18,15 +18,15 @@ export default function Contact() {
                         </p>
                     </div>
 
-                    <div className="space-y-6 md:space-y-8 relative z-10 px-4 md:px-0">
-                        <div className="flex items-center gap-4 md:gap-6 group cursor-default justify-center lg:justify-start">
+                    <div className="space-y-3 md:space-y-4 relative z-10 px-2 md:px-0">
+                        <div className="flex items-center gap-2 md:gap-3 group cursor-default justify-center lg:justify-start">
                             <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full glass-glow flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all shadow-lg shadow-secondary/20">
                                 <span className="material-symbols-outlined text-sm md:text-base">rocket_launch</span>
                             </div>
                             <span className="font-bold uppercase tracking-widest text-[10px] md:text-xs text-white/70">Strategic Guidance</span>
                         </div>
 
-                        <div className="flex items-center gap-4 md:gap-6 group cursor-default justify-center lg:justify-start">
+                        <div className="flex items-center gap-2 md:gap-3 group cursor-default justify-center lg:justify-start">
                             <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full glass-glow flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all shadow-lg shadow-secondary/20">
                                 <span className="material-symbols-outlined text-sm md:text-base">hub</span>
                             </div>
@@ -34,10 +34,10 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="relative group max-w-sm md:max-w-md mx-auto lg:mx-0 scale-90 md:scale-100">
+                    <div className="relative group max-w-sm md:max-w-md mx-auto lg:mx-0 scale-95 md:scale-100">
                         <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-[30px] md:rounded-[40px] blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-                        <div className="relative glass-glow p-8 md:p-10 rounded-[30px] md:rounded-[40px] border border-white/10 overflow-hidden flex flex-col items-center justify-center space-y-6 md:space-y-8 min-h-[200px] md:min-h-[250px] shadow-2xl">
-                            <div className="grid grid-cols-3 gap-6 md:gap-8">
+                        <div className="relative glass-glow p-4 md:p-6 rounded-[30px] md:rounded-[40px] border border-white/10 overflow-hidden flex flex-col items-center justify-center space-y-3 md:space-y-4 min-h-[120px] md:min-h-[180px] shadow-2xl">
+                            <div className="grid grid-cols-3 gap-3 md:gap-4">
                                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-white/5 flex items-center justify-center border border-white/10 hover:bg-primary hover:text-white transition-all transform hover:-translate-y-2 cursor-pointer">
                                     <span className="material-symbols-outlined text-xl md:text-2xl">mail</span>
                                 </div>
