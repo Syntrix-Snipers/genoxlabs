@@ -4,16 +4,18 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="min-h-screen flex items-center pt-32 pb-16 md:pb-24 px-4 md:px-6 relative overflow-hidden" id="nexus">
+        <section className="min-h-screen flex items-center pt-28 md:pt-32 pb-8 md:pb-12 px-4 md:px-6 relative overflow-hidden" id="nexus">
             {/* Design Globes for Hero */}
             <div className="absolute top-1/4 -right-20 w-80 h-80 bg-secondary/20 rounded-full blur-[100px] pointer-events-none opacity-40"></div>
             <div className="absolute bottom-1/4 -left-20 w-96 h-96 bg-secondary/15 rounded-full blur-[120px] pointer-events-none opacity-30"></div>
 
-            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
-                <div className="space-y-6 md:space-y-10 text-center lg:text-left z-10 order-2 lg:order-1">
+            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative z-10">
+                <div className="space-y-4 md:space-y-6 text-center lg:text-left z-10 order-2 lg:order-1">
                     <div className="inline-flex items-center space-x-3 glass-glow px-4 md:px-6 py-2 rounded-full border border-secondary/30 mx-auto lg:mx-0">
                         <span className="flex h-2 w-2 rounded-full bg-secondary animate-ping"></span>
-                        <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.3em] text-secondary">Web3 Architectural Lab</span>
+                        <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.3em] text-white">
+                        Web3 Architectural Lab
+                        </span>
                     </div>
                     <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] text-white uppercase tracking-tighter shadow-sm">
                         Crafting the <br />
@@ -22,7 +24,7 @@ export default function Hero() {
                     <p className="text-base md:text-xl text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
                         Deploying hyper-performance decentralized systems and immersive digital identities for the next generation of the internet.
                     </p>
-                    <div className="flex flex-col sm:flex-row flex-wrap gap-4 md:gap-6 pt-4 justify-center lg:justify-start">
+                    <div className="flex flex-col sm:flex-row flex-wrap gap-2 md:gap-3 pt-2 justify-center lg:justify-start">
                         <button className="glow-button bg-primary text-white w-full sm:w-auto px-10 md:px-12 py-4 md:py-5 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-sm">
                             Launch Protocol
                         </button>

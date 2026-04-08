@@ -24,13 +24,13 @@ export default function SocialInfluence() {
     ];
 
     return (
-        <section className="py-40 px-6" id="impact">
-            <div className="max-w-7xl mx-auto space-y-20">
+        <section className="py-20 px-6" id="impact">
+            <div className="max-w-7xl mx-auto space-y-8">
                 <div className="text-center space-y-4">
                     <h2 className="font-display text-5xl md:text-6xl font-black text-white uppercase tracking-tighter">Social Influence</h2>
                     <p className="text-white font-light text-xl max-w-2xl mx-auto leading-relaxed">Command the digital landscape with high-fidelity creative assets.</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {cards.map((card, idx) => (
                         <div key={idx} className="glass-glow rounded-[40px] overflow-hidden group tech-card p-4 relative">
                             <div className="h-80 rounded-[30px] overflow-hidden relative mb-6">
