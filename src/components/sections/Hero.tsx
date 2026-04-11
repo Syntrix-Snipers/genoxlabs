@@ -40,9 +40,9 @@ export default function Hero() {
                         <div className="relative glass-glow p-3 md:p-4 rounded-[30px] md:rounded-[40px] border border-white/20 shadow-2xl overflow-hidden aspect-video md:aspect-square">
                             {/* Use bannerlogo.jpeg as requested for the first visual */}
                             <Image
-                                alt="Genoxlab Tech Visual"
+                                alt="Who We Are"
                                 className="w-full h-full object-cover rounded-[20px] md:rounded-[30px] opacity-100"
-                                src="/hero_abstract.png"
+                                src="/images/whoweare.png"
                                 fill
                                 priority
                             />

@@ -14,9 +14,9 @@ export default function TheArchitect() {
                         <div className="absolute -inset-10 bg-accent/20 blur-3xl rounded-full opacity-40"></div>
                         <div className="relative glass-glow p-3 md:p-4 rounded-[40px] md:rounded-[60px] border border-white/20 overflow-hidden shadow-2xl aspect-[4/5] max-w-sm md:max-w-lg mx-auto bg-deep-space">
                             <Image
-                                alt="Technical Architecture"
+                                alt="The Architect"
                                 className="w-full h-full object-cover rounded-[30px] md:rounded-[50px] mix-blend-screen opacity-90"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRfpRcDPrIGwHJbzkTOyIpEq2zQchuVCm1vnZeXlqxttuuveCY_bXdxAnQM40Vg2Sah10rn6D54dyQ71VhpndmnWsrCRhcIPpt0sS-c50nKHW4QfMMVMu9W_qpB5NNdc4D9hAjNSgJngh3cPW2vluLsUHKWn1FP1_EDmxFL5ukuxqukNCWIMIQN-lmrWXqpPMfW-YrH1zYOVzEd2GnHaZUecWyuH0cqC5NZtdbHGVxwEltWRio-ICqB_vwallgDj-HTby1gVFVFA"
+                                src="/images/man.png"
                                 fill
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-deep-space via-transparent to-transparent"></div>

@@ -45,9 +45,9 @@ export default function WhoWeAre() {
 
                         <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-2 border-white/20 shadow-2xl glass-glow p-3 md:p-4 z-10 aspect-square transition-transform duration-1000 hover:rotate-3">
                             <Image
-                                alt="Genoxlab Founder"
-                                className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-1000 transform hover:scale-110"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrE0rtR4-goMQRwl5WOuCgs8b4ZGrG_rofZ6By3HxOQBEZZnS7a0NP9ec-PCOgHTg8-01K1mDENy4vXsk8wj4qigkQEbT1EHNzeG1wN5fBP3mUodCxrw8ltiS6GabGuAQ7P5ohJzkrL33E5xUV2kPJLLQ01MsIlaMUQSdMIvb4ZivgA10xlFS3UR0GtPFZy-W1k998FOhxPZNjdKTDG6ldJ3MH9ch__vDCUrNvxblNRbUva-aoVs0Sw9laoQRG_9jGGyHANqZDVw"
+                                alt="Genoxlab Office"
+                                className="w-full h-full object-cover rounded-full"
+                                src="/images/office.png"
                                 fill
                             />
                             <div className="absolute inset-0 bg-secondary/20 mix-blend-multiply opacity-40 hover:opacity-0 transition-opacity duration-700"></div>
