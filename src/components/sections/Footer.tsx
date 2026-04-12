@@ -64,7 +64,7 @@ export default function Footer() {
                 <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
                     <div className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.25em] text-slate-600 max-w-sm md:max-w-none px-4 md:px-0">© 2026 Genoxlab Advanced Systems. Neural link established.</div>
                     <div className="flex flex-wrap justify-center gap-6 md:space-x-12 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-white/20">
-                        {["Silicon Valley", "London", "Tokyo"].map((city, idx) => (
+                        {["Colombo, Sri Lanka", "London", "Tokyo"].map((city, idx) => (
                             <span key={idx} className="hover:text-white/60 transition-colors cursor-default">{city}</span>
                         ))}
                     </div>
