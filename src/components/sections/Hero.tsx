@@ -14,16 +14,16 @@ export default function Hero() {
                     <div className="inline-flex items-center space-x-3 glass-glow px-4 md:px-6 py-2 rounded-full border border-secondary/30 mx-auto lg:mx-0">
                         <span className="flex h-2 w-2 rounded-full bg-secondary animate-ping"></span>
                         <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.3em] text-white">
-                        Web3 Architectural Lab
+                        Digital Solutions Company Sri Lanka
                         </span>
                     </div>
                     <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] text-white uppercase tracking-tighter shadow-sm">
                         Crafting the <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-white">Future</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-white">Digital Future</span>
                     </h1>
-                    <p className="text-base md:text-xl text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
-                        Deploying hyper-performance decentralized systems and immersive digital identities for the next generation of the internet.
-                    </p>
+                    <h2 className="text-base md:text-xl text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
+                        Deploying hyper-performance decentralized systems, innovative web platforms, and immersive digital identities. Sri Lanka's premium digital agency.
+                    </h2>
                     <div className="flex flex-col sm:flex-row flex-wrap gap-2 md:gap-3 pt-2 justify-center lg:justify-start">
                         <button className="glow-button bg-primary text-white w-full sm:w-auto px-10 md:px-12 py-4 md:py-5 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-sm">
                             Launch Protocol
