@@ -8,6 +8,7 @@ import SocialInfluence from "@/components/sections/SocialInfluence";
 import SocialGrowth from "@/components/sections/SocialGrowth";
 import TheArchitect from "@/components/sections/TheArchitect";
 import WhoWeAre from "@/components/sections/WhoWeAre";
+import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 
@@ -25,6 +26,7 @@ export default function Page() {
         <SocialGrowth />
         <TheArchitect />
         <WhoWeAre />
+        <FAQ />
         <Contact />
       </main>
       <Footer />

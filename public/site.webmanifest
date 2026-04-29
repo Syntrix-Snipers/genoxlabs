@@ -1,7 +1,14 @@
 {
-    "name": "GenoxLabs — Next Level Innovation",
-    "short_name": "GenoxLabs",
-    "description": "GenoxLabs is redefining the future. Coming soon to genox.com.",
+    "name": "Genoxlabs | Digital Solutions & Web3 Agency Sri Lanka",
+    "short_name": "Genoxlabs",
+    "description": "Sri Lanka's premier digital solutions company — web development, mobile apps, Web3 systems and branding.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#020617",
+    "background_color": "#020617",
+    "lang": "en",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -14,11 +21,24 @@
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
         }
     ],
-    "theme_color": "#800080",
-    "background_color": "#000000",
-    "display": "standalone",
-    "start_url": "/",
-    "scope": "/"
-}
+    "categories": ["business", "productivity", "technology"],
+    "shortcuts": [
+        {
+            "name": "Our Services",
+            "url": "/#core",
+            "description": "View Genoxlabs digital services"
+        },
+        {
+            "name": "Contact Us",
+            "url": "/#origins",
+            "description": "Get in touch with Genoxlabs"
+        }
+    ]
+}
