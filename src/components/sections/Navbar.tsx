@@ -12,16 +12,24 @@ export default function Navbar() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
+
     window.addEventListener("scroll", handleScroll);
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${scrolled ? "glass border-b border-white/5 py-2 sm:py-3" : "bg-transparent py-3 sm:py-4 md:py-6"}`}
+        className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${
+          scrolled
+            ? "glass border-b border-white/5 py-2 sm:py-3"
+            : "bg-transparent py-3 sm:py-4 md:py-6"
+        }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 flex items-center justify-between">
+          
+          {/* Logo */}
           <Link
             href="/"
             className="flex items-center space-x-2 sm:space-x-3 group relative z-[101] min-w-0"
@@ -34,6 +42,7 @@ export default function Navbar() {
                 className="object-cover"
               />
             </div>
+
             <span className="font-display font-black text-base sm:text-lg md:text-2xl tracking-tighter text-white truncate">
               GENOXLAB
             </span>
@@ -44,57 +53,87 @@ export default function Navbar() {
             {["Nexus", "Core", "Impact", "Origins"].map((item, idx) => (
               <a
                 key={idx}
-                className="text-[10px] xl:text-xs font-black uppercase tracking-[0.25em] hover:text-secondary transition-colors text-white/70"
                 href={`#${item.toLowerCase()}`}
+                className="text-[10px] xl:text-xs font-black uppercase tracking-[0.25em] hover:text-secondary transition-colors text-white/70"
               >
                 {item}
               </a>
             ))}
           </div>
 
+          {/* Right Side */}
           <div className="flex items-center space-x-2 sm:space-x-4">
-            <button className="hidden sm:block glow-button bg-primary text-white px-4 md:px-6 xl:px-8 py-2 md:py-3 rounded-full text-[10px] md:text-xs font-black uppercase tracking-widest transition-all">
-              Initiate
-            </button>
 
-            {/* Mobile Menu Toggle */}
+            {/* Contact Button */}
+            <a
+              href="#contact"
+              className="hidden sm:block glow-button bg-primary text-white px-4 md:px-6 xl:px-8 py-2 md:py-3 rounded-full text-[10px] md:text-xs font-black uppercase tracking-widest transition-all"
+            >
+              Contact us
+            </a>
+
+            {/* Mobile Toggle */}
             <button
               className="lg:hidden w-10 h-10 flex flex-col items-center justify-center space-y-1.5 z-[101]"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle mobile menu"
             >
               <span
-                className={`w-6 h-0.5 bg-white transition-all transform ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`}
-              ></span>
+                className={`w-6 h-0.5 bg-white transition-all transform ${
+                  mobileMenuOpen
+                    ? "rotate-45 translate-y-2"
+                    : ""
+                }`}
+              />
+
               <span
-                className={`w-6 h-0.5 bg-white transition-all ${mobileMenuOpen ? "opacity-0" : ""}`}
-              ></span>
+                className={`w-6 h-0.5 bg-white transition-all ${
+                  mobileMenuOpen ? "opacity-0" : ""
+                }`}
+              />
+
               <span
-                className={`w-6 h-0.5 bg-white transition-all transform ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`}
-              ></span>
+                className={`w-6 h-0.5 bg-white transition-all transform ${
+                  mobileMenuOpen
+                    ? "-rotate-45 -translate-y-2"
+                    : ""
+                }`}
+              />
             </button>
           </div>
         </div>
       </nav>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-deep-space/95 backdrop-blur-2xl z-[90] transition-all duration-500 overflow-hidden ${mobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        className={`fixed inset-0 bg-deep-space/95 backdrop-blur-2xl z-[90] transition-all duration-500 overflow-hidden ${
+          mobileMenuOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }`}
       >
         <div className="flex flex-col items-center justify-center min-h-screen space-y-7 sm:space-y-10 px-6 text-center">
+
           {["Nexus", "Core", "Impact", "Origins"].map((item, idx) => (
             <a
               key={idx}
-              className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-white uppercase tracking-tighter hover:text-secondary transition-colors"
               href={`#${item.toLowerCase()}`}
               onClick={() => setMobileMenuOpen(false)}
+              className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-white uppercase tracking-tighter hover:text-secondary transition-colors"
             >
               {item}
             </a>
           ))}
-          <button className="glow-button bg-primary text-white w-full max-w-xs py-4 sm:py-5 rounded-2xl font-black uppercase tracking-[0.25em] sm:tracking-[0.3em] text-[10px] sm:text-xs">
-            Initiate Protocol
-          </button>
+
+          {/* Mobile Contact */}
+          <a
+            href="#contact"
+            onClick={() => setMobileMenuOpen(false)}
+            className="glow-button bg-primary text-white w-full max-w-xs py-4 sm:py-5 rounded-2xl font-black uppercase tracking-[0.25em] sm:tracking-[0.3em] text-[10px] sm:text-xs"
+          >
+            Contact Us
+          </a>
+
         </div>
       </div>
     </>

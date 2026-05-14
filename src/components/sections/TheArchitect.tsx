@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function TheArchitect() {
     return (
-        <section className="py-12 md:py-20 px-4 md:px-6 relative overflow-hidden" id="about">
+        <section  className="py-12 md:py-20 px-4 md:px-6 relative overflow-hidden" id="about">
             {/* Design Globes */}
             <div className="absolute top-1/4 -right-20 w-48 md:w-80 h-48 md:h-80 bg-primary/20 rounded-full blur-[80px] md:blur-[100px] pointer-events-none opacity-40"></div>
 
@@ -57,9 +57,16 @@ export default function TheArchitect() {
                         </div>
 
                         <div className="pt-4 flex justify-center lg:justify-start">
-                            <button className="border-b-2 border-secondary text-secondary font-bold pb-2 hover:text-white hover:border-white transition-all text-sm md:text-lg flex items-center gap-2 group tracking-widest uppercase">
-                                Download Agency Profile <span className="material-symbols-outlined group-hover:translate-y-1 transition-all duration-300">download</span>
-                            </button>
+                          <a
+  href="/agency-profile.pdf"
+  download="GenoxLab-Agency-Profile.pdf"
+  className="border-b-2 border-secondary text-secondary font-bold pb-2 hover:text-white hover:border-white transition-all text-sm md:text-lg flex items-center gap-2 group tracking-widest uppercase cursor-pointer"
+>
+  Download Agency Profile
+  <span className="material-symbols-outlined group-hover:translate-y-1 transition-all duration-300">
+    download
+  </span>
+</a>
                         </div>
                     </div>
                 </div>

@@ -34,9 +34,9 @@ export default function SocialGrowth() {
                         ))}
                     </div>
 
-                    <button className="glow-button w-full sm:w-auto bg-primary text-white px-10 py-4 md:px-12 md:py-5 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all shadow-xl">
+                    {/* <button className="glow-button w-full sm:w-auto bg-primary text-white px-10 py-4 md:px-12 md:py-5 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all shadow-xl">
                         Request Strategy Quote
-                    </button>
+                    </button> */}
                 </div>
 
                 <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end px-4">

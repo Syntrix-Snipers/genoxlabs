@@ -46,9 +46,24 @@ export default function SocialInfluence() {
                             <div className="p-4 space-y-4 text-center">
                                 <h3 className="text-2xl font-bold text-white uppercase tracking-tight">{card.title}</h3>
                                 <p className="text-slate-400 text-sm leading-relaxed">{card.desc}</p>
-                                <button className={`glow-button w-full bg-${card.color} text-white py-4 rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs`}>
-                                    Order Now
-                                </button>
+                             <button
+  onClick={() => {
+    const message = `Hello, I'm interested in the ${card.title} package.
+    
+Package Details:
+${card.title}
+
+description: ${card.desc}`;
+
+    window.open(
+      `https://wa.me/94764398193?text=${encodeURIComponent(message)}`,
+      "_blank"
+    );
+  }}
+  className={`glow-button cursor-pointer w-full bg-${card.color} text-white py-4 rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs`}
+>
+  Order Now
+</button>
                             </div>
                         </div>
                     ))}
