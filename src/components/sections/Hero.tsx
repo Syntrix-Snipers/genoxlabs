@@ -24,14 +24,14 @@ export default function Hero() {
                     <h2 className="text-base md:text-xl text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
                         Deploying hyper-performance decentralized systems, innovative web platforms, and immersive digital identities. Sri Lanka's premium digital agency.
                     </h2>
-                    <div className="flex flex-col sm:flex-row flex-wrap gap-2 md:gap-3 pt-2 justify-center lg:justify-start">
+                    {/* <div className="flex flex-col sm:flex-row flex-wrap gap-2 md:gap-3 pt-2 justify-center lg:justify-start">
                         <button className="glow-button bg-primary text-white w-full sm:w-auto px-10 md:px-12 py-4 md:py-5 rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-sm">
                             Launch Protocol
                         </button>
                         <button className="glass px-10 md:px-12 py-4 md:py-5 w-full sm:w-auto rounded-xl md:rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-sm hover:bg-white/10 transition-all border border-white/10">
                             Archive
                         </button>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="relative flex justify-center lg:justify-end order-1 lg:order-2 px-4">

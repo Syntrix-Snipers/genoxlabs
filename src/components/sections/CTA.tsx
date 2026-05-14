@@ -16,12 +16,22 @@ export default function CTA() {
                         Join dozens of forward-thinking companies that trust us to build their digital products.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
-                        <button className="w-full sm:w-auto px-10 py-4 bg-primary hover:bg-primary/90 text-white font-black uppercase tracking-widest text-xs rounded-xl transition-all shadow-lg shadow-primary/25">
-                            Get in Touch
-                        </button>
-                        <button className="w-full sm:w-auto px-10 py-4 glass border-primary/30 hover:border-primary text-slate-100 font-black uppercase tracking-widest text-xs rounded-xl transition-all">
-                            View Portfolio
-                        </button>
+                        <button
+  onClick={() => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="cursor-pointer w-full sm:w-auto px-10 py-4 bg-primary hover:bg-primary/90 text-white font-black uppercase tracking-widest text-xs rounded-xl transition-all shadow-lg shadow-primary/25"
+>
+  Get in Touch
+</button>
+                    <button
+  onClick={() => {
+    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="cursor-pointer w-full sm:w-auto px-10 py-4 glass border-primary/30 hover:border-primary text-slate-100 font-black uppercase tracking-widest text-xs rounded-xl transition-all"
+>
+  View Portfolio
+</button>
                     </div>
                 </div>
             </div>

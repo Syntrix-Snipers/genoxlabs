@@ -48,9 +48,14 @@ export default function Expertise() {
                                     </div>
                                 ))}
                                 </div>
-                            <button className="glow-button w-full sm:w-auto flex items-center justify-center gap-2 bg-white/5 border border-white/10 px-6 py-3 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs">
-                                Request Demo <span className="material-symbols-outlined text-sm">bolt</span>
-                            </button>
+                           <button
+  onClick={() => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="glow-button cursor-pointer w-full sm:w-auto flex items-center justify-center gap-2 bg-white/5 border border-white/10 px-6 py-3 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs"
+>
+  Request Demo <span className="material-symbols-outlined text-sm">bolt</span>
+</button>
                         </div>
                     </div>
                     <div className="order-1 lg:order-2 floating-element px-4 lg:px-0">
@@ -108,9 +113,14 @@ export default function Expertise() {
                                     </div>
                                 ))}
                             </div>
-                            <button className="glow-button w-full sm:w-auto flex items-center justify-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs">
-                                Initiate Build <span className="material-symbols-outlined text-sm">smartphone</span>
-                            </button>
+                     <button
+  onClick={() => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="glow-button cursor-pointer w-full sm:w-auto flex items-center justify-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-secondary font-black uppercase tracking-widest text-[10px] md:text-xs"
+>
+  Initiate Build <span className="material-symbols-outlined text-sm">smartphone</span>
+</button>
                         </div>
                     </div>
                 </div>
