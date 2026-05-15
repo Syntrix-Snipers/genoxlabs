@@ -17,22 +17,23 @@ export default function Footer() {
                         <p className="text-white max-w-sm leading-relaxed font-light text-base md:text-lg">
                             Pioneering the next era of digital interaction and decentralized protocols with surgical precision.
                         </p>
-                        <div className="flex space-x-6 justify-center sm:justify-start">
-                            {[
-                                { icon: "alternate_email", label: "Email" },
-                                { icon: "public", label: "Web" },
-                                { icon: "hub", label: "Community" }
-                            ].map((social, idx) => (
-                                <a
-                                    key={idx}
-                                    className="w-12 h-12 rounded-2xl glass-glow flex items-center justify-center hover:bg-primary transition-all group border border-white/10"
-                                    href="#"
-                                    aria-label={social.label}
-                                >
-                                    <span className="material-symbols-outlined text-lg group-hover:text-white transition-colors">{social.icon}</span>
-                                </a>
-                            ))}
-                        </div>
+             <div className="flex space-x-6 justify-center sm:justify-start">
+  {[
+    { icon: "alternate_email", label: "Email" },
+    { icon: "public", label: "Web" },
+    { icon: "hub", label: "Community" }
+  ].map((social, idx) => (
+    <div
+      key={idx}
+      className="w-12 h-12 rounded-2xl glass-glow flex items-center justify-center border border-white/10 cursor-default"
+      aria-label={social.label}
+    >
+      <span className="material-symbols-outlined text-lg">
+        {social.icon}
+      </span>
+    </div>
+  ))}
+</div>
                     </div>
                     <div className="flex flex-col items-center sm:items-start">
                         <h4 className="font-black text-white mb-8 uppercase tracking-[0.3em] text-[10px]">Directory</h4>
@@ -62,9 +63,11 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
-                    <div className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.25em] text-slate-600 max-w-sm md:max-w-none px-4 md:px-0">© 2026 Genoxlab Advanced Systems. Neural link established.</div>
+                    <div className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.25em] text-slate-600 max-w-sm md:max-w-none px-4 md:px-0">
+  © {new Date().getFullYear()} Genoxlab Advanced Systems. Neural link established.
+</div>
                     <div className="flex flex-wrap justify-center gap-6 md:space-x-12 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-white/20">
-                        {["Colombo, Sri Lanka", "London", "Tokyo"].map((city, idx) => (
+                        {["Colombo, Sri Lanka"].map((city, idx) => (
                             <span key={idx} className="hover:text-white/60 transition-colors cursor-default">{city}</span>
                         ))}
                     </div>
